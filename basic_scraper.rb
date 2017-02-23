@@ -1,4 +1,5 @@
-#!/usr/bin/ruby
+# Scrapes html from a page or downloads a file from the net.
+# Command line arguments : "html (or) media" "website_url (or) file_url" "name_of_file_to_save_in"
 
 require 'open-uri'
 require 'nokogiri'
